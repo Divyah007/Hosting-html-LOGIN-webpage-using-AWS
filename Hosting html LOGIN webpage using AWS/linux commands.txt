@@ -1,0 +1,11 @@
+sudo su
+yum install httpd
+y
+cd /var/www/html
+pwd
+vi index.html
+(press i copy paste the html code)
+(press Esc)
+:wq
+more index.html
+service httpd start
